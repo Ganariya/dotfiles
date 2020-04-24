@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/ganariya/Desktop'
+let g:netrw_dirhist_9='/Users/ganariya/Desktop/clion_settings'
+let g:netrw_dirhist_8='/Users/ganariya/Desktop'
+let g:netrw_dirhist_7='/Users/ganariya/Desktop/履歴書'
+let g:netrw_dirhist_6='/Users/ganariya/Desktop'
+let g:netrw_dirhist_5='/Users/ganariya/Desktop/ant2020_ganariya'
+let g:netrw_dirhist_4='/Users/ganariya/Desktop'
+let g:netrw_dirhist_3='/Users/ganariya/Desktop/競技プログラミング'
+let g:netrw_dirhist_2='/Users/ganariya/Desktop'
+let g:netrw_dirhist_1='/Users/ganariya/Desktop/履歴書'
