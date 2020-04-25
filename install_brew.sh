@@ -45,6 +45,8 @@ casks=(
 	visual-studio-code
 	font-hack-nerd-font
 	discord
+	cheatsheet
+	steam
 	gitkraken
 	gyazo
 	jetbrains-toolbox

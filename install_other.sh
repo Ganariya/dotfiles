@@ -26,3 +26,9 @@ fisher add jethrokuan/z
 brew install starship
 # ここでfish用に設定がいる
 
+
+# tex
+brew cask install mactex
+sudo tlmgr update --self --all
+sudo tlmgr paper a4
+
