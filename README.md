@@ -1,6 +1,7 @@
 
-![](images/ganariya.png)
-
+<div align="center">
+    <img src="images/ganariya.png" width="200px">
+</div>
 # はじめに
 
 このDotfilesはganariyaの設定ファイルです。
@@ -13,6 +14,7 @@
 ganariyaが書いた[Dotfilesの解説記事](https://qiita.com/ganariya/items/d9adffc6535dfca6784b)です。
 
 まだ新環境に出会ってないため、動作は未確認です＞＜
+
 ご了承ください。
 
 
