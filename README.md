@@ -2,6 +2,8 @@
 <div align="center">
     <img src="images/ganariya.png" width="200px">
 </div>
+
+
 # はじめに
 
 このDotfilesはganariyaの設定ファイルです。
