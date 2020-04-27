@@ -1,1 +1,9 @@
 set helplang=ja
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set number
+set expandtab
+set splitright
+set clipboard=unnamed
+set hls
