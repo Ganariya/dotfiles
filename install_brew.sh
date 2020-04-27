@@ -12,6 +12,7 @@ which brew >/dev/null 2>&1 && brew update
 echo "ok. run brew upgrade..."
 brew upgrade --all
 
+
 formulas=(
 	pandoc
 	pstree
@@ -87,6 +88,6 @@ brew cask cleanup
 
 echo "brew installed"
 
-
+# https://qiita.com/macololidoll/items/1c369217c6203dd479bd
 
 
