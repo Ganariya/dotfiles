@@ -7,3 +7,4 @@ set expandtab
 set splitright
 set clipboard=unnamed
 set hls
+set noswapfile
