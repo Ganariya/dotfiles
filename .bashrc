@@ -21,6 +21,7 @@
 # pyenvさんに自動補完機能を提供してもらう
 #if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+export LANG=ja_JP.UTF-8
 export PATH="$HOME/.cargo/bin:$PATH"
 
 source /Users/ganariya/Library/Preferences/org.dystroy.broot/launcher/bash/br

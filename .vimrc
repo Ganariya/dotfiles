@@ -11,6 +11,7 @@ set number
 set expandtab
 set splitright
 set clipboard=unnamed,autoselect
+set noswapfile
 
 set ignorecase
 set smartcase
