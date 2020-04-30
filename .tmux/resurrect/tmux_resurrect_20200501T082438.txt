@@ -1,0 +1,8 @@
+pane	15	1	:fish	1	:*	1	:/Users/ganariya	1	fish	:-fish
+pane	techful	1	:fish	1	:*	1	:/Users/ganariya	0	fish	:-fish
+pane	techful	1	:fish	1	:*	2	:/Users/ganariya	1	fish	:-fish
+pane	techful	2	:fish	0	:-	1	:/Users/ganariya	1	fish	:-fish
+window	15	1	1	:*	5859,113x60,0,0,39
+window	techful	1	1	:*	00d1,113x60,0,0{56x60,0,0,3,56x60,57,0,4}
+window	techful	2	0	:-	b442,159x60,0,0,5
+state	15	
