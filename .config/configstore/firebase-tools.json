@@ -1,0 +1,44 @@
+{
+	"analytics-uuid": "2f967021-6bd2-45ba-805b-8f339510d148",
+	"motd": {
+		"cloudBuildErrorAfter": 1592870400000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1592870400000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1608076800000,
+		"node8RuntimeDisabledAfter": 1613347200000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1590741565211
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "108977261122512086746",
+		"email": "ganariya2525@gmail.com",
+		"email_verified": true,
+		"at_hash": "XvEdU_NowxgnFTkWAfrTkA",
+		"iat": 1590741579,
+		"exp": 1590745179
+	},
+	"tokens": {
+		"expires_at": 1590745212375,
+		"refresh_token": "1//0eO2qPiJ1u0RNCgYIARAAGA4SNwF-L9Ir71NzIuaThrEr5GXJFx1ogwCHPhkQet1lOF_p1xKx57we1zsSkvl-9hl5J5g4Q8ROc7M",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMAxHLoIy2vRa8VLU3ZXWovvIc-o3tOfDzTP05CataQwv3P3KxiHWltMxzmJZ7Fh4aowInmfdSektMwx2TstmgzkkvWb4nLJpCel3VZobi3OE7UDCxocBgpvbBIcZ2giZW5POUhxV2mJXuYuq0ky4Y_AerGqX0oUWN0Tyf4",
+		"expires_in": 3599,
+		"scope": "openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImZiOGNhNWI3ZDhkOWE1YzZjNjc4ODA3MWU4NjZjNmM0MGYzZmMxZjkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4OTc3MjYxMTIyNTEyMDg2NzQ2IiwiZW1haWwiOiJnYW5hcml5YTI1MjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJVaW9fdjVVbC1KeUFQMFJBV3ZTM2FRIiwiaWF0IjoxNTkwNzQxNjEzLCJleHAiOjE1OTA3NDUyMTN9.cbMdSniBj9ET5B0DCX8lF54tm1omN2yyIjaXNNlJjwAb1HwESQfn8vBzWZODqBFJWr-M4Y_LUZIHBcz4bhEnnciCxz0YHLC19cbv06EB-G_7mkq4hmqTebOW63-BRosMWY6IMr7QrVmEQZ8JIdqjQd2XV2FGHZ7Wa1S6mDSGpj0lAe14L-Y8-mZf5SIjQusIJxfDqGLOwEC7qsFxwi8X8h2hQV_Btxz2ctzF8GG1MuxpHAA2OY9ui9xVBUvl8IvniKG5vAjXE6GnLsQTj1NXbCM77pQKw662RNgc9Dhb8FCbYcurEEZ-J0Mx2AI72m_XcBYS67N5tqmHWwr6NJXRjw"
+	},
+	"activeProjects": {
+		"/Users/ganariya/WebstormProjects/firebase": "fir-practice-4baed"
+	}
+}
