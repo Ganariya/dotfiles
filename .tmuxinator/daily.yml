@@ -1,6 +1,6 @@
 # /Users/ganariya/.tmuxinator/slack.yml
 
-name: slack
+name: daily
 root: ~/
 
 # Optional tmux socket
@@ -45,27 +45,22 @@ root: ~/
 # attach: false
 
 windows:
-  - base:
+  - work:
       layout: even-vertical
       panes:
-        - echo "Hello" && clear
-        - echo "World" && clear
-  - slack:
-      layout: tiled
-      # Synchronize all panes of this window, can be enabled before or after the pane commands run.
-      # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
-      # synchronize: after
+        - echo "Hello" && clear && clear
+        - echo "World" && clear && clear
+  - zenn:
+      layout: even-horizontal
       panes:
-        - slack-term -config ~/.config/slack-term/multi-agent.config
-        - slack-term -config ~/.config/slack-term/enpit.config
-        - slack-term -config ~/.config/slack-term/ganariya-hp.config
+        - cd develop/zenn-ganariya && npx zenn preview -p 8100 & open http://localhost:8100/ &
   - install:
       layout: tiled
       panes:
-        - echo "install" && clear
-        - echo "install" && clear
-        - echo "install" && clear
-        - echo "install" && clear
-  - all:
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+  - free:
       layout: even-vertical
-        - echo "all" && clear
+        - echo "free" && clear
