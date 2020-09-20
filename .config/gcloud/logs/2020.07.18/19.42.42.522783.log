@@ -1,0 +1,6 @@
+2020-07-18 19:42:42,543 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-07-18 19:42:42,567 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2020-07-18 19:42:42,569 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "twitter-hatena-post"]
+2020-07-18 19:42:42,570 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2020-07-18 19:42:43,445 INFO     root            Display format: "default"

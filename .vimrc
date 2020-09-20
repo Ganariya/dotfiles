@@ -60,6 +60,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/goyo.vim'
+Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 

@@ -1,0 +1,9 @@
+2020-07-20 07:47:15,786 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2020-07-20 07:47:15,854 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2020-07-20 07:47:15,857 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [[USER@]INSTANCE: "twitter-hatena"]
+2020-07-20 07:47:15,921 INFO     oauth2client.client Refreshing access_token
+2020-07-20 07:47:17,144 INFO     ___FILE_ONLY___ No zone specified. Using zone [us-central1-a] for instance: [twitter-hatena].
+
+2020-07-20 07:47:18,160 DEBUG    root            Current SSH keys in project: ['ganariya:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCWVy0G/DRfm58WF1KktoWl5W4D10rB17lBe/Nh9xD7EG+qwOsC25LrToXO6g/Bqsxgxx8QO8W+9Xs0c0D8edC0ADZfJrzkT7qeJwwlurp64nQjqZKKSVH43RWHnHAqwjnSZl1MdJlliHfJ5ZwqFPQc5Z+y9WFmTy8/pN2W84f/5rGCnkmkJyKAxUYBvHQnB+XopUdgGzRanUyTx6RyRQEBOV4kGVxPWNHVmkUY/d2eXXjz4OS9hMsJItPir8oDbcrhsrKetUWkOnjeOBDY0TeMMExtDjN972i6cH/EAMdUy6JVRKQQaafcRI4vy2lmUjictiX1euSrhOeTZDLIJ1/Qi6lytNwfpDl377mvfjZa5ABUAV9st8eOpv1lBq239baUMWZ1VgijFe/pAJXRBvp3JjToQKchjxZISAQj3RA5mO1buX6h9A74jx1OirJuRatxTGnb6pPYOtRCnR0+7YnNZ7jGDauV4z1GrDWCu9Tr9U5OymRhBN1AphAx7DH6DKU= ganariya@ganariyamac.local']
+2020-07-20 07:47:18,161 DEBUG    root            Running command [/usr/bin/ssh -t -i /Users/ganariya/.ssh/google_compute_engine -o CheckHostIP=no -o HostKeyAlias=compute.6848244472824305985 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=/Users/ganariya/.ssh/google_compute_known_hosts ganariya@35.223.229.120].
+2020-07-20 07:47:18,161 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-i', '/Users/ganariya/.ssh/google_compute_engine', '-o', 'CheckHostIP=no', '-o', 'HostKeyAlias=compute.6848244472824305985', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=yes', '-o', 'UserKnownHostsFile=/Users/ganariya/.ssh/google_compute_known_hosts', 'ganariya@35.223.229.120']

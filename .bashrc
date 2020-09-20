@@ -23,5 +23,9 @@
 
 export LANG=ja_JP.UTF-8
 export PATH="$HOME/.cargo/bin:$PATH"
+export EDITOR="/usr/bin/vi"
 
-source /Users/ganariya/Library/Preferences/org.dystroy.broot/launcher/bash/br
+# source /Users/ganariya/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+# added by travis gem
+[ ! -s /Users/ganariya/.travis/travis.sh ] || source /Users/ganariya/.travis/travis.sh

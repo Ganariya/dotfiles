@@ -1,0 +1,46 @@
+2020-07-18 19:38:30,566 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2020-07-18 19:38:30,588 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2020-07-18 19:38:30,591 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [[USER@]INSTANCE: "twitter-hatena"]
+2020-07-18 19:38:30,940 WARNING  root            The private SSH key file for gcloud does not exist.
+2020-07-18 19:38:30,941 WARNING  root            The public SSH key file for gcloud does not exist.
+2020-07-18 19:38:30,941 WARNING  root            You do not have an SSH key for gcloud.
+2020-07-18 19:38:30,941 WARNING  root            SSH keygen will be executed to generate a key.
+2020-07-18 19:38:30,942 DEBUG    root            Running command [/usr/bin/ssh-keygen -t rsa -f /Users/ganariya/.ssh/google_compute_engine].
+2020-07-18 19:38:30,942 DEBUG    root            Executing command: ['/usr/bin/ssh-keygen', '-t', 'rsa', '-f', '/Users/ganariya/.ssh/google_compute_engine']
+2020-07-18 19:38:34,476 DEBUG    root            (gcloud.compute.ssh) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/surface/compute/ssh.py", line 161, in Run
+    scope_lister=instance_flags.GetInstanceZoneScopeLister(client))[0]
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 546, in ResolveResources
+    with_project=with_project)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 442, in _ResolveUnderspecifiedNames
+    scope_lister)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/scope_prompter.py", line 63, in PromptForScope
+    underspecified_names)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/instances/flags.py", line 141, in InstanceZoneScopeLister
+    project = properties.VALUES.core.project.Get(required=True)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2197, in Get
+    required)
+  File "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2505, in _GetProperty
+    raise RequiredPropertyError(prop, flag=flag_to_use)
+googlecloudsdk.core.properties.RequiredPropertyError: The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+2020-07-18 19:38:34,479 ERROR    root            (gcloud.compute.ssh) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]

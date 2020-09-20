@@ -1,0 +1,26 @@
+2020-07-18 19:38:10,158 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2020-07-18 19:38:11,224 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2020-07-18 19:38:11,226 DEBUG    root            Running [gcloud.auth.login] with arguments: []
+2020-07-18 19:38:11,559 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&code_challenge=JD2u8grGsyBJCfI77NceabaiiMB1K51yd5ceKbuShRU&code_challenge_method=S256&access_type=offline&response_type=code&prompt=select_account
+
+
+
+2020-07-18 19:38:17,288 INFO     oauth2client.client Successfully retrieved access token
+2020-07-18 19:38:17,300 INFO     ___FILE_ONLY___ 
+You are now logged in as [ganariya2525@gmail.com].
+Your current project is [None].  You can change this setting by running:
+  $ gcloud config set project PROJECT_ID
+
+2020-07-18 19:38:17,301 INFO     root            Display format: "none"
+2020-07-18 19:38:17,328 DEBUG    root            Checking for updates...
+2020-07-18 19:38:17,749 DEBUG    root            Updating notification cache...
+2020-07-18 19:38:17,749 DEBUG    root            Activating notification: [default]
+2020-07-18 19:38:17,749 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Cloud SDK components.  To install them,
+please run:
+  $ gcloud components update
+
+

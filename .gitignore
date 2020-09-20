@@ -1,4 +1,6 @@
 
 .config/.DS_Store
+.config/WakaTime
 
 .DS_Store
+.vim/plugged/vim-wakatime

@@ -1,0 +1,5 @@
+pane	slack	1	:editor	1	:*	1	:/Users/ganariya	0	slack-term	:slack-term -config /Users/ganariya/.config/slack-term/multi-agent.config
+pane	slack	1	:editor	1	:*	2	:/Users/ganariya	0	slack-term	:slack-term -config /Users/ganariya/.config/slack-term/enpit.config
+pane	slack	1	:editor	1	:*	3	:/Users/ganariya	1	slack-term	:slack-term -config /Users/ganariya/.config/slack-term/ganariya-hp.config
+window	slack	1	1	:*	e62d,213x57,0,0[213x27,0,0{106x27,0,0,0,106x27,107,0,1},213x29,0,28,2]
+state	slack	
