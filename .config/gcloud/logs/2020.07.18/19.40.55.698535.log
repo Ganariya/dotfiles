@@ -1,3 +1,0 @@
-2020-07-18 19:40:55,719 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
-2020-07-18 19:40:55,736 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
-2020-07-18 19:40:55,740 ERROR    root            (gcloud.compute.ssh) argument [USER@]INSTANCE: Must be specified.
