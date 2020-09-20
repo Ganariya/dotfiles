@@ -4,3 +4,5 @@
 
 .DS_Store
 .vim/plugged/vim-wakatime
+.vim/plugged/wal.vim/
+.vim/plugged/

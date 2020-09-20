@@ -1,3 +1,4 @@
+
 nnoremap zu zz11<C-e> 
 
 set nowritebackup
@@ -41,12 +42,14 @@ set encoding=UTF-8
 set laststatus=1
 
 " Airline
-let g:airline_theme = 'molokai'
+let g:airline_theme = 'deus'
+" let g:airline_theme = 'molokai'
 let g:airline_powerline_fonts = 1
 "let g:airline#extensions#tabline#enabled = 1
 nmap <C-p> <Plug>AirlineSelectPrevTab
 nmap <C-n> <Plug>AirlineSelectNextTab
 
+" https://qiita.com/kouichi_c/items/e19ccf94b8e5ab6ed18e
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
@@ -61,6 +64,8 @@ Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/goyo.vim'
 Plug 'wakatime/vim-wakatime'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
 
+colorscheme wal
 
