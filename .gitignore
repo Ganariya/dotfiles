@@ -8,4 +8,5 @@
 .vim/plugged/
 .config/nvim/plugged
 .config/coc
+.tmux/plugins/
 
