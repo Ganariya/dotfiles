@@ -1,6 +1,0 @@
-[qiita]
-api_token = "f06abd07d0ffbc917a18b65dc15a547d24699332"
-
-[local]
-base_dir = "./qiita"
-finename_mode = "title"
