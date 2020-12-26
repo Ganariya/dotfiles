@@ -4,9 +4,10 @@
 set PATH /Library/Frameworks/Python.framework/Versions/3.6/bin $PATH
 set PATH /opt/local/bin /opt/local/sbin $PATH
 set PATH /usr/local/var/pyenv/shims $PATH
-set PATH $PATH $HOME/.nodebrew/current/bin /usr/local/opt/php@7.2/bin/php 
+set PATH $PATH $HOME/.nodebrew/current/bin
 set PATH $HOME/.cargo/bin $PATH
 set PATH $PATH /Users/ganariya/.nimble/bin
+set PATH $PATH $HOME/dotfiles
 
 set GOPATH $HOME/go
 set PATH $PATH $GOPATH/bin
