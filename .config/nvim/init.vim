@@ -1,4 +1,3 @@
-
 " ------------------------------
 " key syntax
 " ------------------------------
@@ -35,7 +34,7 @@ set noswapfile
 " clipboard
 " ------------------------------
 set clipboard=unnamed
- 
+
 
 " ------------------------------
 " editor
@@ -133,7 +132,7 @@ Plug 'preservim/nerdtree'
 " https://qiita.com/youichiro/items/b4748b3e96106d25c5bc#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%84%E3%83%AA%E3%83%BC%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B
 Plug 'lambdalisue/fern.vim'
 Plug 'lambdalisue/fern-git-status.vim'
-   
+
 " many syntax
 Plug 'sheerun/vim-polyglot'
 
@@ -153,7 +152,7 @@ Plug 'dense-analysis/ale'
 
 " git操作 :G~
 Plug 'tpope/vim-fugitive'
- 
+
 " Zenn mode like
 Plug 'junegunn/goyo.vim'
 
@@ -180,6 +179,25 @@ Plug 'tpope/vim-surround'
 " increment completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" lsp symbols
+Plug 'liuchengxu/vista.vim'
+
+" dubugger
+Plug 'puremourning/vimspector'
+
+" format
+Plug 'Chiel92/vim-autoformat'
+
+" power-up repert
+Plug 'tpope/vim-repeat'
+
+" start-screen
+Plug 'mhinz/vim-startify'
+
+" run command asyncly :AsyncRun
+Plug 'skywind3000/asyncrun.vim'
+
+
 call plug#end()
 
 colorscheme tokyonight
@@ -189,3 +207,10 @@ colorscheme tokyonight
 " coc.nvim
 " ------------------------------
 source ~/.config/nvim/plugin-init-vim/coc.vim
+
+" ------------------------------
+" asyncrun.vim
+" ------------------------------
+augroup MyGroup
+    autocmd User AsyncRunStart call asyncrun#quickfix_toggle(8, 1)
+augroup END
