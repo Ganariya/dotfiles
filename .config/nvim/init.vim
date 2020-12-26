@@ -212,5 +212,5 @@ source ~/.config/nvim/plugin-init-vim/coc.vim
 " asyncrun.vim
 " ------------------------------
 augroup MyGroup
-    autocmd User AsyncRunStart call asyncrun#quickfix_toggle(8, 1)
+   autocmd User AsyncRunStart call asyncrun#quickfix_toggle(8, 1)
 augroup END

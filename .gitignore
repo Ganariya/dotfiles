@@ -9,4 +9,5 @@
 .config/nvim/plugged
 .config/coc
 .tmux/plugins/
+.tmux/plugins/tqm
 
