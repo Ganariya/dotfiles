@@ -25,5 +25,8 @@ set -x num_of_music (count $music_files)
 #    afplay ~/.config/fish/music/$music_files[$play_music_id] -v 0.05 -q 1 &
 #end
 
+alias vim='nvim'
+alias vi='nvim'
+
 fish_vi_key_bindings
 

@@ -6,3 +6,6 @@
 .vim/plugged/vim-wakatime
 .vim/plugged/wal.vim/
 .vim/plugged/
+.config/nvim/plugged
+.config/coc
+
