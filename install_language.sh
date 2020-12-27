@@ -23,4 +23,5 @@ npm install gtop -g
 npm install zenn-cli -g
 
 # python
-
+pip install --upgrade pip
+brew install pipenv
