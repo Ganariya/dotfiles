@@ -38,3 +38,7 @@ alias python='python3'
 # --------------------
 fish_vi_key_bindings
 
+# --------------------
+# fuck
+# --------------------
+thefuck --alias | source 

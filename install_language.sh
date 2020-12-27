@@ -8,6 +8,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 # go
 brew install go
+go get github.com/knqyf263/pet
+go get github.com/mkchoi212/fac
 
 # rust
 brew install rust

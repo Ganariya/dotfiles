@@ -14,26 +14,39 @@ brew upgrade
 
 
 formulas=(
+    asciinema
     bat
+    ctop
+    dat
     exa
     ffmpeg
+    fd
     fish
     gh
     git
     gitui
+    jrnl
+    navi
+    nb
     neovim
+    neofetch
     nodebrew
     nnn
     pandoc
+    procs
     poppler
     pstree
+    sampler
+    sd
     sqlite
     starship
+    taskell
     thefuck
     tldr
     tmux
     tmuxinator
     tree
+    warp
     yarn
 )
 
@@ -100,7 +113,6 @@ for cask in "${casks[@]}"; do
 done
 
 brew cleanup
-brew cask cleanup
 
 echo "brew installed"
 

@@ -183,7 +183,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'liuchengxu/vista.vim'
 
 " dubugger
-Plug 'puremourning/vimspector'
+" Plug 'puremourning/vimspector'
 
 " format
 Plug 'Chiel92/vim-autoformat'

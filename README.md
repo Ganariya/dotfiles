@@ -72,3 +72,7 @@ chmod +x install_other.sh
 - xcode
 - keisignal
 - hotkey
+
+# Links
+
+- https://mergedoc.osdn.jp/
