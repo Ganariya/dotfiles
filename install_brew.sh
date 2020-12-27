@@ -56,7 +56,6 @@ casks=(
     bitwarden
     boostnote
     cheatsheet
-    clion
     deepl
     discord
     docker
@@ -78,7 +77,6 @@ casks=(
     notion
     obs
     papers
-    pycharm
     r
     rectangle
     skitch
