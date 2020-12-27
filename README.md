@@ -47,3 +47,29 @@ chmod +x install_other.sh
 ```bash
 ./install_other.sh
 ```
+
+### fishのインストール
+
+```bash
+./install_fish.sh
+```
+
+### 言語のインストール
+
+```bash
+./install_language.sh
+```
+
+
+# 追加インストールが必要
+
+- trello
+- virtualbox
+- commentscreen
+- amphetamine
+- remote desktop
+- runcat
+- line
+- xcode
+- keisignal
+- hotkey

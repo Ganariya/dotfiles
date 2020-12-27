@@ -10,25 +10,31 @@ echo "run brew update..."
 which brew >/dev/null 2>&1 && brew update
 
 echo "ok. run brew upgrade..."
-brew upgrade --all
+brew upgrade
 
 
 formulas=(
-	pandoc
-	pstree
-	ffmpeg
-	fish
-	poppler
-	git
-	sqlite
-	starship
-	tldr
-	neovim
-	tree
-	tmux
-	yarn
-	thefuck
-	nnn
+    bat
+    exa
+    ffmpeg
+    fish
+    gh
+    git
+    gitui
+    neovim
+    nodebrew
+    nnn
+    pandoc
+    poppler
+    pstree
+    sqlite
+    starship
+    thefuck
+    tldr
+    tmux
+    tmuxinator
+    tree
+    yarn
 )
 
 echo "brew tap"
@@ -42,45 +48,57 @@ done
 
 # install gui up
 casks=(
-	clion
-	visual-studio-code
-	font-hack-nerd-font
-	discord
-	cheatsheet
-	steam
-	gitkraken
-	gyazo
-	jetbrains-toolbox
-	inkscape
-	keycastr
-	kap
-	karabiner-elements
-	boostnote
-	bitwarden
-	appclearner
-	docker
-	dropbox
-	filezilla
-	deepl
-	google-chrome
-	hyperswitch
-	obs
-	spotify
-	slack
-	tickeys
-	trello
-	webstorm
-	pycharm
-	rectangle
-	skitch
-	alfread
-	drawio
-	iterm
+    atom
+    alfred
+    alacritty
+    appcleaner
+    biscuit
+    bitwarden
+    boostnote
+    cheatsheet
+    clion
+    deepl
+    discord
+    docker
+    drawio
+    dropbox
+    font-hack-nerd-font
+    gitkraken
+    grammarly
+    gyazo
+    hyperswitch
+    inkscape
+    iterm2
+    julia
+    jetbrains-toolbox
+    kap
+    karabiner-elements
+    keycastr
+    mamp
+    notion
+    obs
+    papers
+    pycharm
+    r
+    rectangle
+    skitch
+    skype
+    slack
+    spotify
+    steam
+    tickeys
+    visual-studio
+    visual-studio-code
+    vrew
+    vlc
+    webstorm
+    xmind
+    zoom
 )
 
 echo "brew casks"
 for cask in "${casks[@]}"; do
-	brew cask install $cask
+	brew install --cask $cask
 done
 
 brew cleanup
