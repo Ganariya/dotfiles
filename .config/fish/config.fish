@@ -1,7 +1,6 @@
 # --------------------
 # PATH
 # --------------------
-set PATH $PATH /Library/Frameworks/Python.framework/Versions/3.9/bin
 set PATH $PATH /opt/local/bin
 set PATH $PATH /opt/local/sbin
 set PATH $PATH /usr/local/bin
@@ -31,7 +30,8 @@ alias vim='nvim'
 alias vi='nvim'
 alias ls='exa'
 alias cat='bat'
-
+alias pip='pip3'
+alias python='python3'
 
 # --------------------
 # vim_bindings
