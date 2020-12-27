@@ -12,6 +12,9 @@ chmod +x install.sh
 cd ..
 rm -rf fonts
 
+# tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # tex
 brew install --cask mactex
 sudo tlmgr update --self --all

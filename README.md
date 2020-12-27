@@ -60,7 +60,6 @@ chmod +x install_other.sh
 ./install_language.sh
 ```
 
-
 # 追加インストールが必要
 
 - trello

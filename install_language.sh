@@ -17,7 +17,10 @@ nodebrew setup
 set -x PATH $HOME/.nodebrew/current/bin $PATH
 nodebrew install-binary latest
 nodebrew use latest
+
+# npm
 npm install gtop -g
+npm install zenn-cli -g
 
 # python
 
