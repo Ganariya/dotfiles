@@ -64,6 +64,7 @@ casks=(
     font-hack-nerd-font
     gitkraken
     grammarly
+    google-backup-and-sync
     gyazo
     hyperswitch
     inkscape
@@ -89,7 +90,6 @@ casks=(
     visual-studio-code
     vrew
     vlc
-    webstorm
     xmind
     zoom
 )
