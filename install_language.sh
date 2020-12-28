@@ -25,6 +25,7 @@ npm install gtop -g
 npm install zenn-cli -g
 npm install @marp-team/marp-cli -g
 npm install taskbook -g
+npm install  carbon-now-cli -g
 
 # python
 pip install --upgrade pip

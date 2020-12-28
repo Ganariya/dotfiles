@@ -26,6 +26,7 @@ formulas=(
     git
     gitui
     jrnl
+    mas
     navi
     nb
     neovim
@@ -113,6 +114,27 @@ echo "brew casks"
 for cask in "${casks[@]}"; do
 	brew install --cask $cask
 done
+
+
+stores=(
+    497799835
+    539883307
+    937984704
+    975890633
+    1144071713
+    1295203466
+    1423210932
+    1429033973
+    1450950860
+    1483764819
+)
+
+
+echo "app stores"
+for store in "${stores[@]}"; do
+    mas install $store
+done
+
 
 brew cleanup
 
