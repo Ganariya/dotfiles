@@ -72,6 +72,8 @@ chmod +x install_other.sh
 - xcode
 - keisignal
 - hotkey
+- 1440
+- monofocus
 
 # Links
 

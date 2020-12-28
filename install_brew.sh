@@ -68,7 +68,9 @@ casks=(
     biscuit
     bitwarden
     boostnote
+    cacher
     cheatsheet
+    dash
     deepl
     discord
     docker

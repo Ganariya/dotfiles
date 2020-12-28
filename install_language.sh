@@ -23,6 +23,8 @@ nodebrew use latest
 # npm
 npm install gtop -g
 npm install zenn-cli -g
+npm install @marp-team/marp-cli -g
+npm install taskbook -g
 
 # python
 pip install --upgrade pip
