@@ -31,3 +31,4 @@ npm install gitignore.cli -g
 # python
 pip install --upgrade pip
 brew install pipenv
+brew install pyenv

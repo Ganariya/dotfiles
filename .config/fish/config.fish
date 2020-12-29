@@ -7,6 +7,7 @@ set PATH $PATH /usr/local/bin
 set PATH $PATH /usr/local/sbin
 set PATH $PATH $HOME/.nodebrew/current/bin
 set PATH $PATH $HOME/.cargo/bin 
+set PATH $PATH $HOME/.pyenv
 set PATH $PATH /Users/ganariya/.nimble/bin
 set PATH $PATH $HOME/dotfiles
 set GOPATH $HOME/go
