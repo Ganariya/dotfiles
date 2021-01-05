@@ -27,6 +27,7 @@ formulas=(
     gitui
     jrnl
     mas
+    mysql
     navi
     nb
     neovim
