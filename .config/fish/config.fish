@@ -33,6 +33,8 @@ alias ls='exa'
 alias cat='bat'
 alias pip='pip3'
 alias python='python3'
+alias pdf2eps='pdftops -eps'
+alias flake8='flake8 --statistics --show-source --max-line-length 88 --docstring-convention numpy'
 
 # --------------------
 # vim_bindings
