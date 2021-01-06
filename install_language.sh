@@ -27,6 +27,7 @@ npm install @marp-team/marp-cli -g
 npm install taskbook -g
 npm install carbon-now-cli -g
 npm install gitignore.cli -g
+npm install @google/clasp -g
 
 # python
 pip install --upgrade pip
