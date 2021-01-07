@@ -46,7 +46,7 @@ fish_vi_key_bindings
 # --------------------
 thefuck --alias | source 
 
-# -
-#
-# -
+# --------------------
+# tmuxinator
+# --------------------
 tmuxinator daily
