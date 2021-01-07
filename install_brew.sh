@@ -43,6 +43,7 @@ formulas=(
     sqlite
     starship
     taskell
+    terminal-notifier
     thefuck
     tldr
     tmux
