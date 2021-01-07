@@ -30,7 +30,6 @@ formulas=(
     mysql
     navi
     nb
-    neovim
     neofetch
     nodebrew
     nnn
@@ -61,6 +60,7 @@ echo "brew install formula"
 for formula in "${formulas[@]}"; do
 	brew install $formula || brew upgrade $formula
 done
+brew install --HEAD neovim
 
 # install gui up
 casks=(
