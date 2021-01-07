@@ -31,6 +31,7 @@ formulas=(
     navi
     nb
     neofetch
+    neovim
     nodebrew
     nnn
     pandoc
@@ -60,7 +61,6 @@ echo "brew install formula"
 for formula in "${formulas[@]}"; do
 	brew install $formula || brew upgrade $formula
 done
-brew install --HEAD neovim
 
 # install gui up
 casks=(
