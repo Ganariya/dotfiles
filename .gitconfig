@@ -1,8 +1,9 @@
 [core]
     editor = vim
+    excludefile = ~/.gitignore_global
 [user]
     name = ganariya
-    email = willwill1997willwill@yahoo.co.jp
+    email = ganariya2525@gmail.com
 [color]
     ui = auto
 [merge]
