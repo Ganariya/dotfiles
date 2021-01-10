@@ -14,6 +14,7 @@ brew upgrade
 
 
 formulas=(
+    act
     asciinema
     bat
     ctop
