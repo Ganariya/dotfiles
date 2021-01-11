@@ -80,6 +80,7 @@ casks=(
     docker
     drawio
     dropbox
+    flux
     font-hack-nerd-font
     gitkraken
     grammarly
