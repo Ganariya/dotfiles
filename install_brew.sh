@@ -16,6 +16,7 @@ brew upgrade
 formulas=(
     act
     asciinema
+    awscli
     bat
     ctop
     dat
