@@ -17,6 +17,7 @@ formulas=(
     act
     asciinema
     awscli
+    aws-shell
     bat
     ctop
     dat
@@ -51,6 +52,7 @@ formulas=(
     tmux
     tmuxinator
     tree
+    vercel-cli
     warp
     yarn
 )

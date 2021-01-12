@@ -1,0 +1,20 @@
+pane	daily	1	:work	1	:*	1	:/Users/ganariya/AWS	1	fish	:
+pane	daily	1	:work	1	:*	2	:/Users/ganariya/.ssh	0	fish	:
+pane	daily	1	:work	1	:*	3	:/Users/ganariya/AWS	0	fish	:
+pane	daily	2	:zenn	0	:	1	:/Users/ganariya/develop/zenn-ganariya	1	fish	:npm exec zenn preview -p 8100     
+fish
+pane	daily	3	:install	0	:	1	:/Users/ganariya/dotfiles	0	fish	:
+pane	daily	3	:install	0	:	2	:/Users/ganariya	1	fish	:
+pane	daily	3	:install	0	:	3	:/Users/ganariya	0	fish	:
+pane	daily	3	:install	0	:	4	:/Users/ganariya	0	fish	:
+pane	daily	4	:free	0	:	1	:/Users/ganariya	1	fish	:
+pane	daily	5	:gtop	0	:#	1	:/Users/ganariya	1	node	:node /usr/local/bin/gtop
+pane	daily	6	:fish	0	:-	1	:/Users/ganariya/dotfiles	0	fish	:
+pane	daily	6	:fish	0	:-	2	:/Users/ganariya/research/report	1	fish	:/bin/bash /Users/ganariya/dotfiles/geppu
+window	daily	1	1	:*	1e3c,213x56,0,0{106x56,0,0,23,106x56,107,0[106x28,107,0,24,106x27,107,29,27]}
+window	daily	2	0	:	c77e,106x56,0,0,1
+window	daily	3	0	:	0984,213x56,0,0[213x27,0,0{107x27,0,0,2,105x27,108,0,6},213x28,0,28{107x28,0,28,7,105x28,108,28,8}]
+window	daily	4	0	:	c660,213x56,0,0,3
+window	daily	5	0	:#	c661,213x56,0,0,4
+window	daily	6	0	:-	6220,213x56,0,0[213x28,0,0,17,213x27,0,29,20]
+state	daily	
