@@ -49,4 +49,4 @@ thefuck --alias | source
 # --------------------
 # tmuxinator
 # --------------------
-tmuxinator daily
+# tmuxinator daily
