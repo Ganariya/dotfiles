@@ -11,4 +11,4 @@
 .tmux/plugins/
 .tmux/plugins/tqm
 .ssh
-
+.aws/
