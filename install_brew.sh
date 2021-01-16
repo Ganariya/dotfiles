@@ -41,6 +41,7 @@ formulas=(
     pandoc
     procs
     poppler
+    poetry
     pstree
     sampler
     sd
