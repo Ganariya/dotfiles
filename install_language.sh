@@ -28,6 +28,7 @@ npm install taskbook -g
 npm install carbon-now-cli -g
 npm install gitignore.cli -g
 npm install @google/clasp -g
+npm install gitmoji-cli -g
 
 # python
 pip install --upgrade pip

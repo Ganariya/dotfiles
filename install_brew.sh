@@ -33,6 +33,7 @@ formulas=(
     mysql
     navi
     nb
+    nim
     neofetch
     neovim
     nodebrew
