@@ -103,6 +103,7 @@ casks=(
     notion
     obs
     papers
+    postman
     r
     rectangle
     skitch
