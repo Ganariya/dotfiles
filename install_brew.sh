@@ -25,6 +25,7 @@ formulas=(
     ffmpeg
     fd
     fish
+    gdrive
     gh
     git
     gitui
