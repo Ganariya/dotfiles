@@ -28,6 +28,7 @@ formulas=(
     fish
     gh
     git
+    gist
     gitui
     jrnl
     mas
