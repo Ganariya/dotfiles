@@ -19,13 +19,13 @@ formulas=(
     awscli
     aws-shell
     bat
+    cookiecutter
     ctop
     dat
     exa
     ffmpeg
     fd
     fish
-    gdrive
     gh
     git
     gitui
