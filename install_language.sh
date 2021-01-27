@@ -11,7 +11,6 @@ brew install go
 go get github.com/knqyf263/pet
 go get github.com/mkchoi212/fac
 go get github.com/odeke-em/drive/cmd/drive
-go get github.com/google/skicka
 
 # rust
 brew install rust
