@@ -67,5 +67,5 @@ Plug 'wakatime/vim-wakatime'
 Plug 'dylanaraps/wal.vim'
 call plug#end()
 
-colorscheme wal
+" colorscheme wal
 
