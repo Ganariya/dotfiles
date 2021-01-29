@@ -1,10 +1,4 @@
 {
 	"optOut": false,
-	"lastUpdateCheck": 1609843714053,
-	"update": {
-		"latest": "0.1.66",
-		"current": "0.1.64",
-		"type": "patch",
-		"name": "zenn-cli"
-	}
+	"lastUpdateCheck": 1611446532394
 }
