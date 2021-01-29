@@ -80,6 +80,7 @@ casks=(
     bitwarden
     boostnote
     cacher
+    clickup
     cheatsheet
     dash
     deepl
