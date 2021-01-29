@@ -10,6 +10,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 brew install go
 go get github.com/knqyf263/pet
 go get github.com/mkchoi212/fac
+go get github.com/odeke-em/drive/cmd/drive
 
 # rust
 brew install rust
@@ -24,7 +25,6 @@ nodebrew use latest
 npm install gtop -g
 npm install zenn-cli -g
 npm install @marp-team/marp-cli -g
-npm install taskbook -g
 npm install carbon-now-cli -g
 npm install gitignore.cli -g
 npm install @google/clasp -g

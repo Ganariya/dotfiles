@@ -19,6 +19,7 @@ formulas=(
     awscli
     aws-shell
     bat
+    cookiecutter
     ctop
     dat
     exa
@@ -27,6 +28,7 @@ formulas=(
     fish
     gh
     git
+    gist
     gitui
     jrnl
     mas
@@ -103,6 +105,7 @@ casks=(
     notion
     obs
     papers
+    postman
     r
     rectangle
     skitch
