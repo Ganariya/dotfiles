@@ -5,11 +5,12 @@ SETUVAR --export ABBR_TIPS_REGEXES:\x28\x5e\x28\x5cw\x2b\x5cs\x2b\x29\x2b\x28\x2
 SETUVAR DOT_DIR:/Users/ganariya/\x2edotfiles
 SETUVAR DOT_REPO:https\x3a//github\x2ecom/ganariya/dotfiles\x2egit
 SETUVAR DOT_SCR:/Users/ganariya/\x2edot
+SETUVAR F_DATA_DIR:/Users/ganariya/\x2elocal/share/f
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/ganariya/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/ganariya/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:/Users/ganariya
+SETUVAR Z_EXCLUDE:\x5e/Users/ganariya\x24
 SETUVAR --export __ABBR_TIPS_KEYS:mux\x1ea__cat\x1ea__flake8\x1ea__ls\x1ea__pdf2eps\x1ea__pip\x1ea__python\x1ea__vi\x1ea__vim
 SETUVAR --export __ABBR_TIPS_VALUES:tmuxinator\x1ebat\x1eflake8\x20\x2d\x2dstatistics\x20\x2d\x2dshow\x2dsource\x20\x2d\x2dmax\x2dline\x2dlength\x2088\x20\x2d\x2ddocstring\x2dconvention\x20numpy\x1eexa\x1epdftops\x20\x2deps\x1epip3\x1epython3\x1envim\x1envim
 SETUVAR __fish_init_2_39_8:\x1d
