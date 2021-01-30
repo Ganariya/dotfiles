@@ -101,6 +101,7 @@ casks=(
     kap
     karabiner-elements
     keycastr
+    kindle
     mamp
     notion
     obs
