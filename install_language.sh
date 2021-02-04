@@ -22,13 +22,15 @@ nodebrew install-binary latest
 nodebrew use latest
 
 # npm
-npm install gtop -g
-npm install zenn-cli -g
-npm install @marp-team/marp-cli -g
-npm install carbon-now-cli -g
-npm install gitignore.cli -g
-npm install @google/clasp -g
-npm install gitmoji-cli -g
+npm install -g gtop
+npm install -g zenn-cli
+npm install -g @marp-team/marp-cli 
+npm install -g carbon-now-cli 
+npm install -g gitignore.cli 
+npm install -g @google/clasp 
+npm install -g gitmoji-cli
+npm install -g gatsby-cli
+npm install -g surge
 
 # python
 pip install --upgrade pip
