@@ -102,6 +102,7 @@ casks=(
     kap
     karabiner-elements
     keycastr
+    kindle
     mamp
     manico
     notion
