@@ -6,6 +6,7 @@
 .config/coc
 .config/configstore
 .config/fish
+.config/gh
 
 .DS_Store
 
