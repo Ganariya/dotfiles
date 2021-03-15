@@ -35,6 +35,7 @@ alias pip='pip3'
 alias python='python3'
 alias pdf2eps='pdftops -eps'
 alias flake8='flake8 --statistics --show-source --max-line-length 88 --docstring-convention numpy'
+alias thist="history --show-time='%Y/%m/%d %H:%M:%S '"
 
 # --------------------
 # vim_bindings
