@@ -10,3 +10,4 @@ fisher install laughedelic/pisces
 fisher install acomagu/fish-async-prompt
 fisher install jethrokuan/z
 fisher install acomagu/fish-async-prompt
+fisher install oh-my-fish/plugin-bang-bang
