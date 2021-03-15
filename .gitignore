@@ -1,14 +1,19 @@
 
 .config/.DS_Store
 .config/WakaTime
+.config/gatsby
+.config/nvim/plugged
+.config/coc
+.config/configstore
 
 .DS_Store
+
 .vim/plugged/vim-wakatime
 .vim/plugged/wal.vim/
 .vim/plugged/
-.config/nvim/plugged
-.config/coc
+
 .tmux/plugins/
 .tmux/plugins/tqm
-.ssh
+
+.ssh/
 .aws/
