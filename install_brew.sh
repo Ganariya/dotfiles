@@ -103,6 +103,7 @@ casks=(
     karabiner-elements
     keycastr
     mamp
+    manico
     notion
     obs
     papers
